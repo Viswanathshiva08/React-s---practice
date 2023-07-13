@@ -1,0 +1,125 @@
+
+*{
+
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  background-color:chartreuse;
+  padding: 60px;
+  border-radius: 60px;
+  position: relative;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color:crimson;
+  border: none;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+  font-size: 18px;
+  
+}
+
+.btn:hover{
+  color: rgb(203, 11, 24);
+ 
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.event {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+cursor: pointer;
+}
+
+
+.event.reminder {
+  border-left: 5px solid green;
+}
+
+.event h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+  
+  
+}
+.form-control input {
+  text-align: center;
+  width:100%;
+  height: 40px;
+  margin:5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(254, 254, 254);
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form-control-check label {
+  flex:1;
+}
+
+form-control-check input {
+  flex:2;
+  height: 20px;;
+}
+
+footer {
+  margin-top:30px;
+  text-align: center;
+}
